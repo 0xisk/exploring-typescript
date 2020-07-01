@@ -1,3 +1,15 @@
+import { Sorter } from './Sorter';
+import { NumbersCollection } from './NumbersCollections';
+
+
+const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
+
+const sorter = new Sorter(numbersCollection);
+sorter.sort();
+console.log(numbersCollection.data);
+
+
+
 // Old JS
 /* class Sorter {
    collection: number[];
@@ -36,10 +48,6 @@
   }
 }
  */
-const sorter = new Sorter([10, 3, -5, 0]);
-sorter.sort();
-console.log(sorter.collection);
-
 
 /**
  * TypeOf: Narrow type of a value to a primitive type { number, string, boolean, symbol }
