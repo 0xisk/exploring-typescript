@@ -9,7 +9,7 @@
 
 // New JS 
 // For Numbers
-class Sorter {
+/* class Sorter {
   constructor(public collection: number[] | string) { }
 
   sort(): void {
@@ -35,7 +35,7 @@ class Sorter {
     }
   }
 }
-
+ */
 const sorter = new Sorter([10, 3, -5, 0]);
 sorter.sort();
 console.log(sorter.collection);
@@ -44,7 +44,7 @@ console.log(sorter.collection);
 /**
  * TypeOf: Narrow type of a value to a primitive type { number, string, boolean, symbol }
  * 
- * InstanceOf: Every other calue that is created with constructor function
+ * InstanceOf: Every other calue that is created with constructor function 
  */
 
 
