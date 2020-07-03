@@ -39,6 +39,27 @@ var LinkedList = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
+    LinkedList.prototype.at = function (index) {
+        if (!this.head) {
+            throw new Error('Index out of bounds');
+        }
+        var counter = 0;
+        var node = this.head;
+        while (node) {
+            if (counter === index) {
+                return node;
+            }
+            counter++;
+            node = node.next;
+        }
+        throw new Error('Index out of bounds');
+    };
+    LinkedList.prototype.compare = function (leftIndex, rightIndex) {
+        if (!this.head) {
+            throw new Error('List is empty');
+        }
+        return this.at(leftIndex).data > this.at(rightIndex).data;
+    };
     return LinkedList;
 }());
 exports.LinkedList = LinkedList;
