@@ -12,6 +12,13 @@ var matches = fs_1.default
     .map(function (row) {
     return row.split(',');
 });
+var MatchResult;
+(function (MatchResult) {
+    MatchResult["HomeWin"] = "H";
+    MatchResult["AwayWin"] = "A";
+    MatchResult["Draw"] = "D";
+})(MatchResult || (MatchResult = {}));
+;
 var homeWin = 'H';
 var awayWin = 'A';
 var draw = 'D';

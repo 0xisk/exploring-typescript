@@ -9,6 +9,12 @@ const matches = fs
     return row.split(',');
   });
 
+enum MatchResult {
+  HomeWin = 'H', 
+  AwayWin = 'A',
+  Draw = 'D'
+};
+
 const homeWin = 'H';
 const awayWin = 'A';
 const draw = 'D';
