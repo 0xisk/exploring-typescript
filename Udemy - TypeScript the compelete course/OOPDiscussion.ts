@@ -1,3 +1,5 @@
+// Open leacture 119 "Beautiful!"
+
 const rectangular = (state) => {
   return {
     area: () => {
