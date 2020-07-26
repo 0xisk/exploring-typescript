@@ -21,11 +21,11 @@ const add = (a: number, b: number): number => {
 ///////////////////////////
 
 class HoldNumber {
-  data: number;
+  data: number = 0;
 }
 
 class HoldString {
-  data: string;
+  data: string = 'Dummy';
 }
 
 const holdNumber = new HoldNumber();
