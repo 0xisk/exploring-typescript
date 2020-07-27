@@ -114,3 +114,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# internal
+Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/node_modules/
+Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/node_modules/
