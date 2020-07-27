@@ -118,3 +118,6 @@ dist
 # internal
 Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/node_modules/
 Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/node_modules/
+
+Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/package-lock.json
+Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/package-lock.json
