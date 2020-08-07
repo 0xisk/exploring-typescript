@@ -116,11 +116,11 @@ dist
 .pnp.*
 
 # internal
-Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/node_modules/
-Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/node_modules/
+udemy_typeScript_course/3_sort/node_modules/
+udemy_typeScript_course/4_stats/node_modules/
 
-Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/package-lock.json
-Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/package-lock.json
+udemy_typeScript_course/3_sort/package-lock.json
+udemy_typeScript_course/4_stats/package-lock.json
 
-Udemy\ -\ TypeScript\ the\ compelete\ course/3-sort/build/
-Udemy\ -\ TypeScript\ the\ compelete\ course/4-stats/build/
+udemy_typeScript_course/3_sort/build/
+udemy_typeScript_course/4_stats/build/
