@@ -1,4 +1,4 @@
-# Learning TypeScript
+# Exploring TypeScript
 
 A repository focused on learning and practicing TypeScript language.
 
